@@ -1,0 +1,12 @@
+header {
+  background-color: darkgray;
+  color: white;
+}
+main {
+  color: darkgray;
+}
+footer {
+  background-color: darkgray;
+  color: white;
+  text-align: center;
+}
