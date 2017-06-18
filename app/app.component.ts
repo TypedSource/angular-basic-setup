@@ -2,7 +2,8 @@ import {Component} from "@angular/core";
 
 @Component({
     selector: 'app',
-    template: '<h1>Angular 2 World</h1>'
+    templateUrl: './app/app.template.html',
+    styleUrls: ['./app/app.style.css']
 })
 export class AppComponent {
     constructor(){

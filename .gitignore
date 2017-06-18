@@ -4,3 +4,6 @@
 /.idea/
 /typings/
 /angular-app.iml
+/app/**.js
+/app/**.js.map
+/app/**.css
