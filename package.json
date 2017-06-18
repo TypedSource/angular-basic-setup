@@ -1,0 +1,43 @@
+{
+  "name": "angular-app",
+  "version": "0.0.1",
+  "description": "App to learn Angular 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "postinstall": "typings install",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings",
+    "lite": "lite-server",
+    "concurrently": "concurrently"
+  },
+  "keywords": [
+    "Learn",
+    "Angular",
+    "2"
+  ],
+  "author": "Maik Tizziani",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^3.4.0",
+    "lite-server": "^2.3.0",
+    "typescript": "^2.3.4",
+    "typings": "^2.1.1"
+  },
+  "dependencies": {
+    "@angular/common": "^4.2.3",
+    "@angular/compiler": "^4.2.3",
+    "@angular/core": "^4.2.3",
+    "@angular/http": "^4.2.3",
+    "@angular/platform-browser": "^4.2.3",
+    "@angular/platform-browser-dynamic": "^4.2.3",
+    "@angular/router": "^4.2.3",
+    "core-js": "^2.4.1",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.4.1",
+    "systemjs": "^0.20.14",
+    "zone.js": "^0.8.12"
+  }
+}
